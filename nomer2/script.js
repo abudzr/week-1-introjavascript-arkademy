@@ -36,6 +36,6 @@ function nilaiUn(indo,ing,mtk,ipa) {
 
     
 
-nilaiUn(15,76,98,89)
+nilaiUn("abu",76,98,89)
 
 
