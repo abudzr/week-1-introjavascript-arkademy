@@ -1,11 +1,15 @@
 function printTriangle (num){
-    for (var i = num; i >= 1; i--) {
-        var s = '';
-    
-        for (var j = 1; j <= i; j++) {
-            s += j;
+    if (isNaN(num) || num < 1 || num > 10) {
+        console.log('Data Harus number!');
+    } else{
+        for (var i = num; i >= 1; i--) {
+            var s = '';
+        
+            for (var j = 1; j <= i; j++) {
+                s += j;
+            }
+            console.log(s);
         }
-        console.log(s);
     }
 }
     

@@ -20,6 +20,7 @@ let newData = {
     name:'Abu Dzar Al-Ghifari',
     username:'abudzr',
     email:'abudzaralghifari8@gmail.com'
+    
 }
 
 
@@ -29,5 +30,6 @@ console.log(newData);
 // destructing : mengambil data street dan city
 const {street,city} = data.address
 
+console.log('======================');
 console.log(street);
 console.log(city);
