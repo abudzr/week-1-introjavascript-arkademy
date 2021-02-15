@@ -1,4 +1,5 @@
 function printTriangle (num){
+    // validasi, apakah hasil inputan integer atau bukan? dan input nilai dari 1-10
     if (isNaN(num) || num < 1 || num > 10) {
         console.log('Data Harus number!');
     } else{

@@ -1,5 +1,5 @@
 function nilaiUn(indo,ing,mtk,ipa) {
-    // validasi, apakah hasil inputan integer atau bukan
+    // validasi, apakah hasil inputan integer atau bukan? dan input nilai dari 1-100
     if (isNaN(indo) || indo < 1 || indo > 100) {
         console.log('Masukkan Nilai Bahasa Indonesia. \n\nContoh nilai : 1-100'); 
     } else if (isNaN(ing) || ing < 1 || ing > 100) {
@@ -36,6 +36,6 @@ function nilaiUn(indo,ing,mtk,ipa) {
 
     
 
-nilaiUn("abu",76,98,89)
+nilaiUn(76,76,98,89)
 
 
